@@ -9,7 +9,7 @@ class Calculator
 	void setValue(String str)
 	{
 		int len = str.length();
-		for(int i=0;i<len;i--)
+		for(int i=0;i<len;i++)
 		{
 			if('0'<=str.charAt(i)&&'9'>=str.charAt(i))
 			{   if(moperator=='#')
@@ -39,7 +39,7 @@ class Calculator
 			System.out.println("=\n"+(num1/num2));
 			break;
 		case '%':
-			System.out.println("=\n"+(num1%num2));
+			System.out.println("=\n"+((int)(num1%num2)));
 			break;
 	    }
 			
