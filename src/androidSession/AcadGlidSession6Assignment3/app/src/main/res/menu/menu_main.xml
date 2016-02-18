@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aditykum.acadglidsession6assignment2.MainActivity">
+    <item
+        android:id="@+id/superMenu"
+        android:orderInCategory="100"
+        android:title="Text Color"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="Red"
+                app:showAsAction="never">
+            </item>
+            <item
+                android:id="@+id/blue"
+                android:title="Blue"
+                app:showAsAction="never">
+            </item>
+            <item
+                android:id="@+id/yellow"
+                android:title="Yellow"
+                app:showAsAction="never">
+            </item>
+        </menu>
+    </item>
+</menu>
